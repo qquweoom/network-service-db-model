@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Oferta_projekt" directorySegmentName="seg_0" id="9385566F-D278-9FB9-7D70-D6D7CA1A70ED">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:25:55 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<sourcePk>8A10FAF1-E3EF-2C66-BAE6-2C8B6246CDD2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>zakłada realizację</nameOnSource>
+<nameOnTarget>znajduje się w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>27FF388C-1630-ADEA-778B-BDD22B33DA88</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6B7EA71C-799E-03F2-3549-A13CC6E47898</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

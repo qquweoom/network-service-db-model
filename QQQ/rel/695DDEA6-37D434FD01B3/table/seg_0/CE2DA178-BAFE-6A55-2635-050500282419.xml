@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE2DA178-BAFE-6A55-2635-050500282419" name="Porty_w_urządzeniu">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>2B3DD7EE-6F7B-340F-D073-5DED67776596</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>port_w_urzadzeniu</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numer" id="9F1900FD-DA79-CC7C-FDBB-C9072739AF2A">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>61F6031F-684A-0764-8F2F-91ECA13CD630</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ" id="4D3B0E6A-3E64-CF61-4E72-14DACFA6AA70">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>38603834-FAD5-B427-581F-5264726D1A9A</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Urządzenie_Nazwa" id="A514F710-6969-9618-C8E4-1A73970F5BEC">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>FCE902D7-A53C-8FC2-B92C-3003C3903864</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="638E898D-7981-6A01-5EE1-CF0C751ED4F8" referredColumn="E9E89CCE-8A29-C4FF-CEC6-E916E2A959BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29BF2122-1188-C786-A252-89D86B18A45F" name="Port_w_urządzeniu_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>118372B2-602F-D093-3DE0-E043548240DD</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F1900FD-DA79-CC7C-FDBB-C9072739AF2A"/>
+<colUsage columnID="A514F710-6969-9618-C8E4-1A73970F5BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="765CEA5B-EB47-C7E0-E407-35700D1EC1FB" name="Port_w_urz_Urz_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>4AEC1782-FAA2-ED61-005A-75F9BF62DD29</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A514F710-6969-9618-C8E4-1A73970F5BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

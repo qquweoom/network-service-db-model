@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCFBA43B-AEB2-6952-ADB1-68C58751C59A" name="Pracownicy_operacyjni">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>CA7C7F3E-0246-C3AF-EA6C-E1E209F5D23C</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>pracownik_operacyjny</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pesel" id="94C0E542-C3AB-3AA5-27CF-63853673086E">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>812604C8-5F2A-AC75-49C3-FC9BC9840EA3</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imię" id="243BC287-D1E1-006A-55DE-7011BE71703E">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>F7E1AF11-91FC-8289-25C3-08CA5D6099A3</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="AF7B0AF7-ACDF-6014-C90E-49FFD9CEB3C5">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>919E925A-B4FA-1207-D1C3-52DD6CDFAF64</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanowisko" id="1BDC0204-0698-6499-6C25-548796D09EAF">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>EB2DA5EA-A2BD-303F-F8A4-AD0E63E6863F</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zatrudnienia" id="232D03B5-0320-8E07-4049-E30CB90309A3">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>A7C5C7ED-9CC3-CFB4-BE5E-66D9332DC827</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zmiana" id="9DFD8033-5CF3-B867-B4D2-B178D5D38B7C">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>2000D640-6E5A-FBE5-49C6-F585C1B92FA3</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wykształcenie" id="781ED907-589B-A7EC-B289-BACAB17DF374">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>15BF5ABC-59BD-B203-8A3C-BC15CD47D529</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DD377B7-6E30-43DD-800A-77ABA721E322" name="Pracownik_operacyjny_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3113E97B-2E93-5344-4D22-FE0706404C9C</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C0E542-C3AB-3AA5-27CF-63853673086E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

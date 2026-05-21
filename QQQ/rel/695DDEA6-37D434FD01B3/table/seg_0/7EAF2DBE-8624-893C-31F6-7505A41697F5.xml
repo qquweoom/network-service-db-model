@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EAF2DBE-8624-893C-31F6-7505A41697F5" name="Lokalizacje">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>2E6C1207-4A2A-6B12-7CEE-29BF3290D092</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>lokalizacja</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ulica" id="9C989E47-5D22-2891-1848-8E2695E1D728">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>9F150547-33D6-9F86-0A08-74D4BADB261A</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_domu" id="33401E59-EC56-0BC2-346A-41186A67DD26">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>256234AB-52FC-F9B8-38D2-692C3E8EC35C</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_pocztowy" id="6A3AB02B-D7F7-0D4C-98CE-50ED761BCFE4">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>410BCFB4-99BC-3069-3944-98CEB726639A</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_Lokalu" id="1DB76082-7ED1-C8DB-4CE0-FC229B1A86A4">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>A06070EB-E57C-970C-4C0F-554D6A0A7644</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miasto" id="7E9C5A70-0CB7-003E-44DF-07142BD0A997">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>8777FA2B-E38C-6EDC-E327-820826B148DD</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj" id="0874FC08-36F4-4881-50B3-2C8C398B70E0">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>1F079F6E-9A2B-DB2B-929A-BA7688482109</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FB53DEE-7F30-C36D-6BD5-B3AC143548B2" name="Lokalizacja_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>4C8AC823-300C-740C-BA0D-CF5B150B4F38</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C989E47-5D22-2891-1848-8E2695E1D728"/>
+<colUsage columnID="33401E59-EC56-0BC2-346A-41186A67DD26"/>
+<colUsage columnID="6A3AB02B-D7F7-0D4C-98CE-50ED761BCFE4"/>
+<colUsage columnID="1DB76082-7ED1-C8DB-4CE0-FC229B1A86A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

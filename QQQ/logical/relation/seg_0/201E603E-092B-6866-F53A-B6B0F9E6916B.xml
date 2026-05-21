@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PracownikOper_zadanie_montażowe" directorySegmentName="seg_0" id="201E603E-092B-6866-F53A-B6B0F9E6916B">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:33:16 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<sourcePk>3113E97B-2E93-5344-4D22-FE0706404C9C</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>zajmuje się nad</nameOnSource>
+<nameOnTarget>jest robione przez</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA7C7F3E-0246-C3AF-EA6C-E1E209F5D23C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B00B0DE-EC4F-2CEB-3269-3F1912D2D1C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

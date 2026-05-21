@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A52757C-B3E0-C6E3-C61D-692F5FCFAC15" containerWithKeyObject="79D011AD-9D83-ED88-BA76-20B7E20C8678" localFKIndex="C83DA1D5-7FCC-BF27-040D-9619B5123843" name="Projekt_Oferta_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>9385566F-D278-9FB9-7D70-D6D7CA1A70ED</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<referredTableLongName>Oferta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62DA3143-DE41-3CAC-53F2-25467C73EFDB</referredTableID>
+<keyObject>CEFC66B7-3E25-6FED-EC47-A554F2785B7C</keyObject>
+<referredKeyID>CEFC66B7-3E25-6FED-EC47-A554F2785B7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Numer</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

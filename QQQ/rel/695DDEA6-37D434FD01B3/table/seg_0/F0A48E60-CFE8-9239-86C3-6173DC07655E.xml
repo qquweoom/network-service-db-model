@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0A48E60-CFE8-9239-86C3-6173DC07655E" name="Handlowcy">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>FAF419C1-EB02-DA0C-1455-89273B4D7D93</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>handlowiec</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pesel" id="1A0A115C-11C5-6F33-1334-A88A6E44FEF0">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>812604C8-5F2A-AC75-49C3-FC9BC9840EA3</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imię" id="1F9D4D7E-1663-732B-383C-6DB5E3B6A993">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>F7E1AF11-91FC-8289-25C3-08CA5D6099A3</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="A1D3390B-D42B-1D23-46EB-A22D7D7DB268">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>919E925A-B4FA-1207-D1C3-52DD6CDFAF64</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanowisko" id="586C2AEE-9D34-BE95-5F9B-6F815C701601">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>EB2DA5EA-A2BD-303F-F8A4-AD0E63E6863F</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zatrudnienia" id="AFAFBE94-0542-7EE4-BF04-5B35E984EDCC">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>A7C5C7ED-9CC3-CFB4-BE5E-66D9332DC827</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prowizja" id="A8BCDBC5-C182-CE89-AE53-179B7FA3513F">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>497BBF2B-4470-6F1F-EF8C-5FD97C457CFB</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D48E2332-5F54-E074-8F50-AD58DC2C6209" name="Handlowiec_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3113E97B-2E93-5344-4D22-FE0706404C9C</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A0A115C-11C5-6F33-1334-A88A6E44FEF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

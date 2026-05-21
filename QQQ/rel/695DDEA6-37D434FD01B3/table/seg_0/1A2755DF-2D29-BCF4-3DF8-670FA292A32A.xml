@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A2755DF-2D29-BCF4-3DF8-670FA292A32A" name="Specyfikacje_projektu">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>C8CC953E-B304-ABE6-AA3C-C518DEE37D8B</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>specyfikacja_projektu</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Typ_sieci" id="0780E910-40CC-417B-132B-FCF0E92F333E">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>CC58CBDB-D437-BA93-46AC-C19B3851C8D1</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Topologia_sieci" id="4968F469-757C-48E0-5BC2-679A3A402654">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>A04656B1-C4AB-B7D5-A52F-A0C5CC948E24</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zapewniona_przepustowość_łącza" id="1A9CED36-BD48-60B5-F197-1F4400EA07B6">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>16F2EFE0-8AC2-9704-6240-08F53C1CD77D</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Standard_przewodów" id="487643FA-7594-A442-C0A4-EA0566EF6256">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>4D9B6B0F-F017-8BD6-7767-25F50694BE6D</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uwagi_dodatkowe" id="0B867807-1807-323A-A638-8DA93F7A487F">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>76E5C8DE-A024-2D21-C6E6-B43918B6EC05</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projekt_Numer" id="C2935568-A897-2899-722B-0E8C4208C5D2">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>C55D21DE-1F73-B75E-47E6-375EEE10EA38</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB1F32D4-A391-DAB8-3779-696162E823A1" referredColumn="2C0441F7-F719-2AAD-D95C-03879271D8D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24546CF5-66DB-A350-C78C-EFA07924A6BD" name="Specyfikacja_projektu_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>0EE09E85-11A5-6AFA-EC94-A2F3472788CB</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2935568-A897-2899-722B-0E8C4208C5D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1230EE1-9650-4A9E-5C1F-9926A4F587CE" name="Spec_proj_Proj_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>B9817254-7E79-F426-C018-FB281EE03675</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2935568-A897-2899-722B-0E8C4208C5D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

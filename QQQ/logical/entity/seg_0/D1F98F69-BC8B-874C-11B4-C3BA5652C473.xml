@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1F98F69-BC8B-874C-11B4-C3BA5652C473" name="Urządzenie_w_projekcie">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-09 21:31:30 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numer_seryjny" id="20334A01-31CA-4F91-6AF3-3C3ACF68101E">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-09 21:32:16 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa1" id="3D79BBAD-04D8-6798-99B7-B293DEB6492B">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-09 21:51:34 UTC</createdTime>
+<generatorID>3C26E407-8878-C522-FC06-F171C855FBB1</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>2A8F3C44-0643-5311-468D-4913A581D0B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer" id="1E5DB54A-D415-D38E-59D7-72A7303D5C31">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-09 22:22:57 UTC</createdTime>
+<generatorID>5AF6C59B-FC82-4CA8-9604-349B2F7BD311</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>C55D21DE-1F73-B75E-47E6-375EEE10EA38</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05002A6D-F841-2F4B-8391-92E4AFB319E1" name="Urządzenie_w_projekcie PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-09 21:32:30 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20334A01-31CA-4F91-6AF3-3C3ACF68101E</attributeRef>
+<attributeRef>1E5DB54A-D415-D38E-59D7-72A7303D5C31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

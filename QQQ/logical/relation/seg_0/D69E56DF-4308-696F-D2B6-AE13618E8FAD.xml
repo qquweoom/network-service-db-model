@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Projekt_zadanie_montażowe" directorySegmentName="seg_0" id="D69E56DF-4308-696F-D2B6-AE13618E8FAD">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:32:13 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<sourcePk>B669331E-1D13-642F-BEC5-5074456BE154</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>składa się z</nameOnSource>
+<nameOnTarget>jest wykonane w</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B7EA71C-799E-03F2-3549-A13CC6E47898</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B00B0DE-EC4F-2CEB-3269-3F1912D2D1C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

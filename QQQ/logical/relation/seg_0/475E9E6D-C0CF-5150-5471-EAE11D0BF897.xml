@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Lokalizacja_klient" directorySegmentName="seg_0" id="475E9E6D-C0CF-5150-5471-EAE11D0BF897">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:28:15 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>znajduje się w</nameOnSource>
+<nameOnTarget>zawiera</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2E6C1207-4A2A-6B12-7CEE-29BF3290D092</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BDF81911-08D6-A0BC-2EE6-CD29C8601E97</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

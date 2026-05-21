@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B7EA71C-799E-03F2-3549-A13CC6E47898" name="Projekt">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:17:31 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numer" id="E21323FD-E28D-BC5E-D411-9F3877A9EF49">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:17:38 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_rozpoczęcia" id="2748CAD4-EB7F-29C0-C6A7-06D1111AD903">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:18:22 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zakończenia" id="E9410FA4-166F-28E5-7112-9C9E545012A7">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:20:32 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="383EF665-492A-314A-9990-DD828A71DBFF">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:20:54 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Budżet" id="17CEEB10-6B8D-E473-CD9C-44388B313A6A">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:21:21 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer1" id="5BC4E0DB-4FA7-0A30-84E4-3508BD5DAE53">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:25:55 UTC</createdTime>
+<generatorID>9385566F-D278-9FB9-7D70-D6D7CA1A70ED</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>46D241B0-79AC-76AC-9A5D-41FAF0483865</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pesel" id="E78047B9-0E78-8B10-1FB0-EF0ECAB593E3">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-07 21:45:56 UTC</createdTime>
+<generatorID>9555C63E-1CE8-E50C-0D06-A315FF0F8C06</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>812604C8-5F2A-AC75-49C3-FC9BC9840EA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B669331E-1D13-642F-BEC5-5074456BE154" name="Projekt PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:18:21 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E21323FD-E28D-BC5E-D411-9F3877A9EF49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5794B065-7DAA-C178-372B-104E92537C19" containerWithKeyObject="79D011AD-9D83-ED88-BA76-20B7E20C8678" localFKIndex="20A73905-6BBC-FC17-0B25-92DAA990CA03" name="Projekt_Kierownik_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>9555C63E-1CE8-E50C-0D06-A315FF0F8C06</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<referredTableLongName>Kierownik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BABF51D7-F24E-D211-5674-9E53AAEEC846</referredTableID>
+<keyObject>548F506D-ADFF-F10D-2E95-47849901305E</keyObject>
+<referredKeyID>548F506D-ADFF-F10D-2E95-47849901305E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pesel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62DA3143-DE41-3CAC-53F2-25467C73EFDB" name="Oferty">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>27FF388C-1630-ADEA-778B-BDD22B33DA88</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>oferta</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numer" id="9CB9B59C-9FDB-2F50-F506-9C9A913B0005">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>46D241B0-79AC-76AC-9A5D-41FAF0483865</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_utworzenia" id="8D78BAFF-79E5-1BC4-A843-CE14E2F56EB5">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>882EB123-311F-B08D-6698-2E9AC684321B</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="4EAFCB1F-0FA5-521E-AE32-911015FAB624">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>BE9BA250-0AA6-B8A2-F6CA-96D8AEECB881</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="9758AF0C-5888-1026-C644-52B6354EF048">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>04304021-94AA-6481-B114-C46716DA22D8</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Handlowiec_Pesel" id="DD127513-5D0B-BADD-D189-F117DEF826D3">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>56A6DED4-EE90-F080-41D0-BB048885DF48</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A53B961-DBAD-0EFD-3E7D-F4927839285A" referredColumn="1A0A115C-11C5-6F33-1334-A88A6E44FEF0"/>
+</associations>
+</Column>
+<Column name="Klient_NIP" id="FF48279E-5FB4-B660-6B64-0BB371AFB362">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>49CA3CE7-40D8-6DE5-A816-0ED09B6C0795</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBDF64C3-07E6-4990-9067-93217B11F064" referredColumn="C39AB6E7-5C74-CE60-93C3-24CA90E8406B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEFC66B7-3E25-6FED-EC47-A554F2785B7C" name="Oferta_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>8A10FAF1-E3EF-2C66-BAE6-2C8B6246CDD2</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CB9B59C-9FDB-2F50-F506-9C9A913B0005"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3B477EC-9443-74EB-3366-4FADA89BFFCF" name="Oferta_Handl_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>A9E40496-AF43-FCBC-4B7B-AEB948F54048</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD127513-5D0B-BADD-D189-F117DEF826D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54162A62-D5EF-8727-6E1A-B681671F97BF" name="Oferta_Klient_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3A7686F4-AF02-3EE7-DC78-D032F5D732D8</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF48279E-5FB4-B660-6B64-0BB371AFB362"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

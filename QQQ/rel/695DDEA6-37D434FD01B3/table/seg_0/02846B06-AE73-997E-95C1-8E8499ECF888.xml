@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02846B06-AE73-997E-95C1-8E8499ECF888" name="Lokalizacje_projektu">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>lokalizacja_projekt</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Lokalizacja_Ulica" id="A2F501F9-5408-7707-90D5-F02BB9F85A1A">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ACA75DA-7607-EFD3-8C92-4292BA976348" referredColumn="9C989E47-5D22-2891-1848-8E2695E1D728"/>
+</associations>
+</Column>
+<Column name="Lokalizacja_Numer_domu" id="1E163695-A5F2-F711-C026-DC403ED76638">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ACA75DA-7607-EFD3-8C92-4292BA976348" referredColumn="33401E59-EC56-0BC2-346A-41186A67DD26"/>
+</associations>
+</Column>
+<Column name="Lokalizacja_Kod_pocztowy" id="EE95F71B-ADB2-BEC0-E31A-841164A0446C">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ACA75DA-7607-EFD3-8C92-4292BA976348" referredColumn="6A3AB02B-D7F7-0D4C-98CE-50ED761BCFE4"/>
+</associations>
+</Column>
+<Column name="Lokalizacja_Numer_Lokalu" id="7648207F-4993-05F6-2A00-6F239291CA21">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ACA75DA-7607-EFD3-8C92-4292BA976348" referredColumn="1DB76082-7ED1-C8DB-4CE0-FC229B1A86A4"/>
+</associations>
+</Column>
+<Column name="Projekt_Numer" id="D8054144-E419-2167-626E-2972722AFA75">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B56180D-DD7D-C964-4904-627FC0D7E475" referredColumn="2C0441F7-F719-2AAD-D95C-03879271D8D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76614F00-52B9-1092-FCAE-ADBAEA00F373" name="Lokalizacja_projekt_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F501F9-5408-7707-90D5-F02BB9F85A1A"/>
+<colUsage columnID="1E163695-A5F2-F711-C026-DC403ED76638"/>
+<colUsage columnID="EE95F71B-ADB2-BEC0-E31A-841164A0446C"/>
+<colUsage columnID="7648207F-4993-05F6-2A00-6F239291CA21"/>
+<colUsage columnID="D8054144-E419-2167-626E-2972722AFA75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C3ABB5E-F9B7-49FF-7302-6512C1A26C30" name="Lokal_proj_Lokal_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3C98D8FB-4F11-5D62-2B1A-75DB342F4803</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F501F9-5408-7707-90D5-F02BB9F85A1A"/>
+<colUsage columnID="1E163695-A5F2-F711-C026-DC403ED76638"/>
+<colUsage columnID="EE95F71B-ADB2-BEC0-E31A-841164A0446C"/>
+<colUsage columnID="7648207F-4993-05F6-2A00-6F239291CA21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CED4331D-1B61-F187-3768-C8737DF4E9C4" name="Lokal_proj_Proj_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3C98D8FB-4F11-5D62-2B1A-75DB342F4803</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8054144-E419-2167-626E-2972722AFA75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8ACA75DA-7607-EFD3-8C92-4292BA976348" containerWithKeyObject="02846B06-AE73-997E-95C1-8E8499ECF888" localFKIndex="6C3ABB5E-F9B7-49FF-7302-6512C1A26C30" name="Lokal_proj_Lokal_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3C98D8FB-4F11-5D62-2B1A-75DB342F4803</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<referredTableLongName>Lokalizacje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EAF2DBE-8624-893C-31F6-7505A41697F5</referredTableID>
+<keyObject>1FB53DEE-7F30-C36D-6BD5-B3AC143548B2</keyObject>
+<referredKeyID>1FB53DEE-7F30-C36D-6BD5-B3AC143548B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ulica,Numer_domu,Kod_pocztowy,Numer_Lokalu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

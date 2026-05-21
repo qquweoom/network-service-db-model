@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8CC953E-B304-ABE6-AA3C-C518DEE37D8B" name="Specyfikacja_projektu">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:08:02 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Typ_sieci" id="CC58CBDB-D437-BA93-46AC-C19B3851C8D1">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:10:24 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Topologia_sieci" id="A04656B1-C4AB-B7D5-A52F-A0C5CC948E24">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:10:45 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zapewniona_przepustowość_łącza" id="16F2EFE0-8AC2-9704-6240-08F53C1CD77D">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:11:14 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Standard_przewodów" id="4D9B6B0F-F017-8BD6-7767-25F50694BE6D">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:12:25 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Uwagi_dodatkowe" id="76E5C8DE-A024-2D21-C6E6-B43918B6EC05">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:12:43 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer" id="C55D21DE-1F73-B75E-47E6-375EEE10EA38">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:26:48 UTC</createdTime>
+<generatorID>B9817254-7E79-F426-C018-FB281EE03675</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<referedAttribute>E21323FD-E28D-BC5E-D411-9F3877A9EF49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0EE09E85-11A5-6AFA-EC94-A2F3472788CB" name="Specyfikacja_projektu PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:26:48 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C55D21DE-1F73-B75E-47E6-375EEE10EA38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

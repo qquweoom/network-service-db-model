@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAAEDC1B-DD0E-56F3-F882-347514EC1330" name="Zadania_montażowe">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>2B00B0DE-EC4F-2CEB-3269-3F1912D2D1C5</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>zadanie_montazowe</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Funkcja" id="503E992B-95D7-D837-4366-72833398A4C7">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>BD0F4F32-2C57-011D-6FA4-032AEEB7F36A</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stawka" id="F6C9CAAC-4F0B-9E1E-9419-83373D95CE79">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>ED863DDA-21C2-FE05-20FF-E494DB12099E</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Projekt_Numer" id="710A53F7-9470-B944-28D3-9E783C69A41D">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>6F54BF20-8308-DFD5-8582-535C437FED82</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EE5F31D-9CD5-0DAF-C289-6ADE8106D2BE" referredColumn="2C0441F7-F719-2AAD-D95C-03879271D8D4"/>
+</associations>
+</Column>
+<Column name="Pracownik_operacyjny_Pesel" id="C1BD30C7-7313-E088-FC7B-BEDF38A81C8E">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>F94492F5-40DD-78E4-DCCB-E0566F22E94A</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD41201E-938E-19BD-5C6F-75BEEC29158A" referredColumn="94C0E542-C3AB-3AA5-27CF-63853673086E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4CEA5BC-45D5-B6D0-D778-5A469F0DBA8C" name="Zadanie_montażowe_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>1EEFBEA7-FDF0-B63B-3446-455D887F6530</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="503E992B-95D7-D837-4366-72833398A4C7"/>
+<colUsage columnID="710A53F7-9470-B944-28D3-9E783C69A41D"/>
+<colUsage columnID="C1BD30C7-7313-E088-FC7B-BEDF38A81C8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C45D2C08-284F-DA33-751B-FAD7D906B105" name="Zad_mont_Prac_oper_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>201E603E-092B-6866-F53A-B6B0F9E6916B</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BD30C7-7313-E088-FC7B-BEDF38A81C8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9BC6EB9-0077-1316-DFEE-F163BA14559A" name="Zad_mont_Proj_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>D69E56DF-4308-696F-D2B6-AE13618E8FAD</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="710A53F7-9470-B944-28D3-9E783C69A41D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

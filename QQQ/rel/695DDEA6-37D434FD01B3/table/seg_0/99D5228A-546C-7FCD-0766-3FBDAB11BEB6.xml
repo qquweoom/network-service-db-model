@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99D5228A-546C-7FCD-0766-3FBDAB11BEB6" name="Usterki">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>E12AE4A3-B654-DCA9-203D-3B15D9BB131A</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>usterka</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Opis" id="DDEB5A79-859E-3DD9-39A8-E56BC9BE6147">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>74043E8A-7025-D457-1EAE-F7D5D9F6B8F0</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_wystąpienia" id="76CA15BD-8547-0836-F6FA-963262131959">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>A5664AE6-4462-DFF5-A175-A24BD2C33C9E</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pracownik_operacyjny_Pesel" id="BF839DCE-482E-C9EC-E874-0DC8A4744525">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>E574741E-B9A1-E28E-4A27-29752605B8F4</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCB91B19-F266-41D0-26F4-9709DCADE61D" referredColumn="94C0E542-C3AB-3AA5-27CF-63853673086E"/>
+</associations>
+</Column>
+<Column name="Urz_w_proj_Num_ser" id="0D87C2BB-AFC7-251B-A176-6CFFB2937750">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>19130DCB-E3A8-806A-BD5A-BE0DEE62D869</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C31C6103-B0D7-4C57-D8B5-DF286A009D35" referredColumn="FF762112-7045-F7AE-610B-39174CB147D8"/>
+</associations>
+</Column>
+<Column name="Urz_w_proj_Num" id="A6C7B2A8-31A2-D782-1769-E5911986DA07">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>8E08D19A-8B24-0D8B-B4AE-22AAA1A4828B</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C31C6103-B0D7-4C57-D8B5-DF286A009D35" referredColumn="722258BB-EEAE-AC25-C290-D11B99F5516C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="739FE749-39B7-7B41-4B75-21C53F75D0A3" name="Usterka_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>9FFEC151-F94E-996C-24C0-338244203DB4</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF839DCE-482E-C9EC-E874-0DC8A4744525"/>
+<colUsage columnID="0D87C2BB-AFC7-251B-A176-6CFFB2937750"/>
+<colUsage columnID="A6C7B2A8-31A2-D782-1769-E5911986DA07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14886E5D-4043-7966-D3CA-2FB20D4AD0EB" name="Ust_Prac_oper_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>64CCDD4F-7588-0E54-E4C5-45608D351D35</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF839DCE-482E-C9EC-E874-0DC8A4744525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46F03349-BFF6-091D-39D9-1EA36D9C852E" name="Ust_Urz_w_proj_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>4C03D67B-0FB6-C52A-B298-B33BCD806E67</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D87C2BB-AFC7-251B-A176-6CFFB2937750"/>
+<colUsage columnID="A6C7B2A8-31A2-D782-1769-E5911986DA07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

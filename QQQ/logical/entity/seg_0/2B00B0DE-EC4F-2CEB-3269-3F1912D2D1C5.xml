@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B00B0DE-EC4F-2CEB-3269-3F1912D2D1C5" name="Zadanie_montażowe">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:26:41 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Funkcja" id="BD0F4F32-2C57-011D-6FA4-032AEEB7F36A">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:26:54 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stawka" id="ED863DDA-21C2-FE05-20FF-E494DB12099E">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:27:20 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer" id="6F54BF20-8308-DFD5-8582-535C437FED82">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:32:13 UTC</createdTime>
+<generatorID>D69E56DF-4308-696F-D2B6-AE13618E8FAD</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>E21323FD-E28D-BC5E-D411-9F3877A9EF49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pesel" id="F94492F5-40DD-78E4-DCCB-E0566F22E94A">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:33:16 UTC</createdTime>
+<generatorID>201E603E-092B-6866-F53A-B6B0F9E6916B</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>812604C8-5F2A-AC75-49C3-FC9BC9840EA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EEFBEA7-FDF0-B63B-3446-455D887F6530" name="Uczęstnictwo PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:27:19 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD0F4F32-2C57-011D-6FA4-032AEEB7F36A</attributeRef>
+<attributeRef>6F54BF20-8308-DFD5-8582-535C437FED82</attributeRef>
+<attributeRef>F94492F5-40DD-78E4-DCCB-E0566F22E94A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

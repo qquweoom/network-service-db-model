@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Lokalizacja_projekt" directorySegmentName="seg_0" id="3C98D8FB-4F11-5D62-2B1A-75DB342F4803">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:35:05 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>wymaga realizowanie</nameOnSource>
+<nameOnTarget> jest realizowany w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2E6C1207-4A2A-6B12-7CEE-29BF3290D092</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B7EA71C-799E-03F2-3549-A13CC6E47898</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

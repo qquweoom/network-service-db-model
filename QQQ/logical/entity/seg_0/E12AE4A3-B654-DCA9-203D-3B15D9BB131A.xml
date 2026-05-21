@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E12AE4A3-B654-DCA9-203D-3B15D9BB131A" name="Usterka">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:56:58 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Opis" id="74043E8A-7025-D457-1EAE-F7D5D9F6B8F0">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:57:11 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_wystąpienia" id="A5664AE6-4462-DFF5-A175-A24BD2C33C9E">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:57:24 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pesel" id="E574741E-B9A1-E28E-4A27-29752605B8F4">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-07 21:46:36 UTC</createdTime>
+<generatorID>64CCDD4F-7588-0E54-E4C5-45608D351D35</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>812604C8-5F2A-AC75-49C3-FC9BC9840EA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer_seryjny" id="19130DCB-E3A8-806A-BD5A-BE0DEE62D869">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-10 19:29:37 UTC</createdTime>
+<generatorID>4C03D67B-0FB6-C52A-B298-B33BCD806E67</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>20334A01-31CA-4F91-6AF3-3C3ACF68101E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer1" id="8E08D19A-8B24-0D8B-B4AE-22AAA1A4828B">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-10 19:29:37 UTC</createdTime>
+<generatorID>4C03D67B-0FB6-C52A-B298-B33BCD806E67</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<referedAttribute>1E5DB54A-D415-D38E-59D7-72A7303D5C31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FFEC151-F94E-996C-24C0-338244203DB4" name="Usterka PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:58:33 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="F73E1B94-44C9-6952-DAE0-76BE474A47A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E574741E-B9A1-E28E-4A27-29752605B8F4</attributeRef>
+<attributeRef>19130DCB-E3A8-806A-BD5A-BE0DEE62D869</attributeRef>
+<attributeRef>8E08D19A-8B24-0D8B-B4AE-22AAA1A4828B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

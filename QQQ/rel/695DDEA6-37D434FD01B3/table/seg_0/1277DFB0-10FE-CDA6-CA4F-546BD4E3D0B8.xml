@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1277DFB0-10FE-CDA6-CA4F-546BD4E3D0B8" name="Protokoły_urządzenia">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>protokol_urzadzenie</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Protokół_Nazwa" id="5B661A3E-A7D2-F478-3D2B-16A8AEB5238B">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E925C0F0-C025-AB0F-07FE-0CD2563D50A0" referredColumn="A4C463FB-8935-42AF-8A90-E87723C7583E"/>
+</associations>
+</Column>
+<Column name="Urządzenie_Nazwa" id="28FF8488-915C-7CAD-4ACF-EB4E5E2281CD">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA4B41E8-39E1-808E-697F-E97A15137DF4" referredColumn="E9E89CCE-8A29-C4FF-CEC6-E916E2A959BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB58D191-94D5-0E8D-D4E5-6BDACAA271B5" name="Protokół_urządzenie_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B661A3E-A7D2-F478-3D2B-16A8AEB5238B"/>
+<colUsage columnID="28FF8488-915C-7CAD-4ACF-EB4E5E2281CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0A958A2-7B6B-B678-B057-703D1FFCC840" name="Prot_urz_Prot_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>E06C33B1-948D-6DEC-7CE2-7881BB693277</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B661A3E-A7D2-F478-3D2B-16A8AEB5238B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCAFF8E2-B62D-E80B-6FF7-1DE039712D3B" name="Prot_urz_Urz_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>E06C33B1-948D-6DEC-7CE2-7881BB693277</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28FF8488-915C-7CAD-4ACF-EB4E5E2281CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

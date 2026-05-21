@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7014687-DC6D-A879-1FFD-5B5C7D4A10C1" name="Urządzenie">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:08:38 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nazwa" id="2A8F3C44-0643-5311-468D-4913A581D0B2">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:13:35 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ" id="F19446DF-4937-4C9F-1C94-5248A8748CFB">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:13:44 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Producent" id="DCBF9586-D1D8-5784-F605-CE8022C4A3D7">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:14:38 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Liczebność" id="EC938FCA-C3BA-8CA8-3F07-26884CA4704D">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:41:01 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BA1CF49-3F89-F31B-CD24-EB80866C902F" name="Urządzenia/Materiał PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:13:43 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="DC00F2F6-69BF-0F9A-128A-B4C89FE7A3F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A8F3C44-0643-5311-468D-4913A581D0B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

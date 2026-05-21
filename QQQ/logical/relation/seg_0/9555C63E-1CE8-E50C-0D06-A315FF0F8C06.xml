@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Kierownik_projekt" directorySegmentName="seg_0" id="9555C63E-1CE8-E50C-0D06-A315FF0F8C06">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-07 21:45:56 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<sourcePk>3113E97B-2E93-5344-4D22-FE0706404C9C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>zarządza</nameOnSource>
+<nameOnTarget>jest kierowany przez</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E2947352-36DD-4035-8271-8D92D4BF472A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B7EA71C-799E-03F2-3549-A13CC6E47898</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

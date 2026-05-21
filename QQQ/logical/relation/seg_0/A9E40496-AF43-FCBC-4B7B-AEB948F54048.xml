@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Handlowiec_oferta" directorySegmentName="seg_0" id="A9E40496-AF43-FCBC-4B7B-AEB948F54048">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:17:05 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<sourcePk>3113E97B-2E93-5344-4D22-FE0706404C9C</sourcePk>
+<targetPk>8A10FAF1-E3EF-2C66-BAE6-2C8B6246CDD2</targetPk>
+<identifying>false</identifying>
+<nameOnSource>zajmuje sie nad</nameOnSource>
+<nameOnTarget>oferowana </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FAF419C1-EB02-DA0C-1455-89273B4D7D93</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>27FF388C-1630-ADEA-778B-BDD22B33DA88</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

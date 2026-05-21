@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8AC26DD-A4F0-EF46-8FF3-0EC61672AFD8" name="Urządzenia_w_projekcie">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>D1F98F69-BC8B-874C-11B4-C3BA5652C473</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<ordsAlias>urzadzenie_w_projekcie</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numer_seryjny" id="FF762112-7045-F7AE-610B-39174CB147D8">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>20334A01-31CA-4F91-6AF3-3C3ACF68101E</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Urządzenie_Nazwa" id="1A76581D-187F-552F-CC44-A6BA04D697A7">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3D79BBAD-04D8-6798-99B7-B293DEB6492B</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5054635-5B5E-4B3F-C0A9-E367A8059563" referredColumn="E9E89CCE-8A29-C4FF-CEC6-E916E2A959BD"/>
+</associations>
+</Column>
+<Column name="Spec_proj_Proj_Num" id="722258BB-EEAE-AC25-C290-D11B99F5516C">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>1E5DB54A-D415-D38E-59D7-72A7303D5C31</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0C006B8-9D5F-BFAF-4A2C-C4B2BE2479F1" referredColumn="C2935568-A897-2899-722B-0E8C4208C5D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71E351F3-062B-73E6-B5BB-C9FAEF65D162" name="Urządzenie_w_projekcie_PK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>05002A6D-F841-2F4B-8391-92E4AFB319E1</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF762112-7045-F7AE-610B-39174CB147D8"/>
+<colUsage columnID="722258BB-EEAE-AC25-C290-D11B99F5516C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D13B955F-9DB6-732B-4952-4110DBC839F6" name="Urz_w_proj_Spec_proj_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>5AF6C59B-FC82-4CA8-9604-349B2F7BD311</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="722258BB-EEAE-AC25-C290-D11B99F5516C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91C4CE52-24E7-8883-9889-F13E6E4E8175" name="Urz_w_proj_Urz_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3C26E407-8878-C522-FC06-F171C855FBB1</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A76581D-187F-552F-CC44-A6BA04D697A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

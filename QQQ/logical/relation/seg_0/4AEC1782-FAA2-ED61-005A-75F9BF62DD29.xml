@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Urządzenie_port" directorySegmentName="seg_0" id="4AEC1782-FAA2-ED61-005A-75F9BF62DD29">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:21:33 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<sourcePk>4BA1CF49-3F89-F31B-CD24-EB80866C902F</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>posiada</nameOnSource>
+<nameOnTarget>znajduje się w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A7014687-DC6D-A879-1FFD-5B5C7D4A10C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B3DD7EE-6F7B-340F-D073-5DED67776596</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

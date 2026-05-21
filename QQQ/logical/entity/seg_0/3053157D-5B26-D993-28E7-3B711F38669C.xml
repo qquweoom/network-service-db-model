@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3053157D-5B26-D993-28E7-3B711F38669C" name="Pracownik">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 14:59:59 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="695DDEA6-BE91-FAB0-0870-37D434FD01B3" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<subtypesRefType>Arc implementation</subtypesRefType>
+<attributeInherType>All atributes</attributeInherType>
+<discriminatorAttributeID>EB2DA5EA-A2BD-303F-F8A4-AD0E63E6863F</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pesel" id="812604C8-5F2A-AC75-49C3-FC9BC9840EA3">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:00:09 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="695DDEA6-BE91-FAB0-0870-37D434FD01B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imię" id="F7E1AF11-91FC-8289-25C3-08CA5D6099A3">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:00:20 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="695DDEA6-BE91-FAB0-0870-37D434FD01B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="919E925A-B4FA-1207-D1C3-52DD6CDFAF64">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:00:39 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="695DDEA6-BE91-FAB0-0870-37D434FD01B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stanowisko" id="EB2DA5EA-A2BD-303F-F8A4-AD0E63E6863F">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:01:10 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="695DDEA6-BE91-FAB0-0870-37D434FD01B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zatrudnienia" id="A7C5C7ED-9CC3-CFB4-BE5E-66D9332DC827">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:02:11 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="695DDEA6-BE91-FAB0-0870-37D434FD01B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3113E97B-2E93-5344-4D22-FE0706404C9C" name="Pracownik PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 15:00:19 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="695DDEA6-BE91-FAB0-0870-37D434FD01B3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>812604C8-5F2A-AC75-49C3-FC9BC9840EA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

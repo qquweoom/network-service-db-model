@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BD41201E-938E-19BD-5C6F-75BEEC29158A" containerWithKeyObject="DAAEDC1B-DD0E-56F3-F882-347514EC1330" localFKIndex="C45D2C08-284F-DA33-751B-FAD7D906B105" name="Zad_mont_Prac_oper_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>201E603E-092B-6866-F53A-B6B0F9E6916B</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<referredTableLongName>Pracownicy_operacyjni</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DCFBA43B-AEB2-6952-ADB1-68C58751C59A</referredTableID>
+<keyObject>9DD377B7-6E30-43DD-800A-77ABA721E322</keyObject>
+<referredKeyID>9DD377B7-6E30-43DD-800A-77ABA721E322</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pesel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

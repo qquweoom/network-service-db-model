@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Specyfikacja_projektu_urządzenie_w_projekcie" directorySegmentName="seg_0" id="5AF6C59B-FC82-4CA8-9604-349B2F7BD311">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-09 22:22:57 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<sourcePk>0EE09E85-11A5-6AFA-EC94-A2F3472788CB</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>zawiera</nameOnSource>
+<nameOnTarget>jest opisane w</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C8CC953E-B304-ABE6-AA3C-C518DEE37D8B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D1F98F69-BC8B-874C-11B4-C3BA5652C473</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

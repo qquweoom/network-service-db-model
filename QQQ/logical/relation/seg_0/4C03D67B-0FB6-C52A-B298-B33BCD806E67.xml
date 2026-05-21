@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="4C03D67B-0FB6-C52A-B298-B33BCD806E67">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-10 19:29:37 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<sourcePk>05002A6D-F841-2F4B-8391-92E4AFB319E1</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>posiada</nameOnSource>
+<nameOnTarget>wystąpiła w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D1F98F69-BC8B-874C-11B4-C3BA5652C473</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E12AE4A3-B654-DCA9-203D-3B15D9BB131A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

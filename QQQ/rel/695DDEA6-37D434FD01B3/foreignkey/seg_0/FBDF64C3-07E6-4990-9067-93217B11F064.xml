@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FBDF64C3-07E6-4990-9067-93217B11F064" containerWithKeyObject="62DA3143-DE41-3CAC-53F2-25467C73EFDB" localFKIndex="54162A62-D5EF-8727-6E1A-B681671F97BF" name="Oferta_Klient_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>3A7686F4-AF02-3EE7-DC78-D032F5D732D8</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<referredTableLongName>Klient</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DECA30B8-4DE2-4F0E-4DFD-934F452E0DF9</referredTableID>
+<keyObject>59DA11C5-C70E-5DC0-BA25-199DBAA79863</keyObject>
+<referredKeyID>59DA11C5-C70E-5DC0-BA25-199DBAA79863</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

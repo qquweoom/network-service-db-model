@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="638E898D-7981-6A01-5EE1-CF0C751ED4F8" containerWithKeyObject="CE2DA178-BAFE-6A55-2635-050500282419" localFKIndex="765CEA5B-EB47-C7E0-E407-35700D1EC1FB" name="Port_w_urz_Urz_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>4AEC1782-FAA2-ED61-005A-75F9BF62DD29</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<referredTableLongName>Urządzenia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>720A8378-4E12-5AA3-D9B0-C9808DDC45FD</referredTableID>
+<keyObject>BA13864D-BC2F-6A2D-AC1F-D64213EFDA85</keyObject>
+<referredKeyID>BA13864D-BC2F-6A2D-AC1F-D64213EFDA85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nazwa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

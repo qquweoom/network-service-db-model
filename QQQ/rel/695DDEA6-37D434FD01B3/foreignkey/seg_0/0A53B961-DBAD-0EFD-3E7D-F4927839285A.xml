@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A53B961-DBAD-0EFD-3E7D-F4927839285A" containerWithKeyObject="62DA3143-DE41-3CAC-53F2-25467C73EFDB" localFKIndex="B3B477EC-9443-74EB-3366-4FADA89BFFCF" name="Oferta_Handl_FK">
+<createdBy>quweom</createdBy>
+<createdTime>2026-01-22 20:58:36 UTC</createdTime>
+<generatorID>A9E40496-AF43-FCBC-4B7B-AEB948F54048</generatorID>
+<ownerDesignName>QQQ</ownerDesignName>
+<referredTableLongName>Handlowcy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0A48E60-CFE8-9239-86C3-6173DC07655E</referredTableID>
+<keyObject>D48E2332-5F54-E074-8F50-AD58DC2C6209</keyObject>
+<referredKeyID>D48E2332-5F54-E074-8F50-AD58DC2C6209</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pesel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

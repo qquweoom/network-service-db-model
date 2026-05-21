@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Protokół_urządzenie" directorySegmentName="seg_0" id="E06C33B1-948D-6DEC-7CE2-7881BB693277">
+<createdBy>Administrator</createdBy>
+<createdTime>2026-01-02 17:24:09 UTC</createdTime>
+<ownerDesignName>QQQ</ownerDesignName>
+<engineerTo>
+<item key="D9CF4A64-2C33-93C0-BD84-DDEBC84BB62C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>obsługiwany przez</nameOnSource>
+<nameOnTarget>obsługuje</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D123E7AA-52C5-528A-D864-A782045CF278</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7014687-DC6D-A879-1FFD-5B5C7D4A10C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
