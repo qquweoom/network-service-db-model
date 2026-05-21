@@ -1,0 +1,188 @@
+INSERT INTO Handlowcy VALUES
+('90010112345', 'Jan', 'Kowalski', 'Starszy handlowiec', DATE '2018-03-01', 7);
+
+INSERT INTO Handlowcy VALUES
+('92050567890', 'Anna', 'Nowak', 'Handlowiec', DATE '2020-06-15', 6.7);
+
+INSERT INTO Handlowcy VALUES
+('93080811111', 'Michał', 'Lewandowski', 'Handlowiec', DATE '2019-11-20', 5.50);
+
+INSERT INTO Handlowcy VALUES
+('89040422222', 'Karolina', 'Wójcik', 'Starszy handlowiec', DATE '2016-07-01', 8.00);
+
+INSERT INTO Kierownicy VALUES
+('87090944444', 'Agnieszka', 'Kamińska', 'Zastępca kierownika', DATE '2014-05-12', 15.50);
+
+INSERT INTO Kierownicy VALUES
+('88020233333', 'Piotr', 'Kardasz', 'Kierownik projektu', DATE '2015-01-10', 20);
+
+INSERT INTO Pracownicy_operacyjni VALUES
+('97010166666', 'Krzysztof', 'Dąbrowski', 'Elektryk', DATE '2020-01-10', 'Dzienna', 'SEP');
+
+INSERT INTO Pracownicy_operacyjni VALUES
+('94050577777', 'Monika', 'Piotrowska', 'Kontroler jakości', DATE '2018-10-05', 'Dzienna', 'ISO 9001');
+
+INSERT INTO Pracownicy_operacyjni VALUES
+('95030344444', 'Tomasz', 'Mazur', 'Technik', DATE '2021-04-01', 'Dzienna', 'CCNA');
+
+INSERT INTO Pracownicy_operacyjni VALUES
+('96070755555', 'Paweł', 'Kaczmarek', 'Monter', DATE '2022-09-15', 'Nocna', 'Technik sieci');
+
+INSERT INTO Klienty VALUES
+('1234567890', 'TechSolutions Sp. z o.o.', 'Marek Zieliński', 123456789, 'kontakt@techsolutions.pl');
+
+INSERT INTO Klienty VALUES
+('9876543210', 'NetPro S.A.', 'Katarzyna Adamska', 987654321, 'biuro@netpro.pl');
+
+INSERT INTO Klienty VALUES
+('1112223334', 'DataNet Sp. z o.o.', 'Piotr Malinowski', 111222333, 'kontakt@datanet.pl');
+
+INSERT INTO Klienty VALUES
+('5556667778', 'FiberTech S.A.', 'Anna Król', 555666777, 'biuro@fibertech.pl');
+
+INSERT INTO Lokalizacje VALUES
+('Polanka', '10', '60-200', 0, 'Warszawa', 'Polska');
+
+INSERT INTO Lokalizacje VALUES
+('Leśna', '5', '30-200', 25, 'Kraków', 'Polska');
+
+INSERT INTO Lokalizacje VALUES
+('Słoneczna', '12', '80-100', 5, 'Gdańsk', 'Polska');
+
+INSERT INTO Lokalizacje VALUES
+('Lipowa', '3', '40-300', 12, 'Katowice', 'Polska');
+
+INSERT INTO Lokalizacje_klienta VALUES
+('Polanka', '10', '60-200', 0, '1234567890');
+
+INSERT INTO Lokalizacje_klienta VALUES
+('Leśna', '5', '30-200', 25, '9876543210');
+
+INSERT INTO Lokalizacje_klienta VALUES
+('Słoneczna', '12', '80-100', 5, '1112223334');
+
+INSERT INTO Lokalizacje_klienta VALUES
+('Lipowa', '3', '40-300', 12, '5556667778');
+
+INSERT INTO Oferty VALUES
+('O001', DATE '2023-01-15', 150000.00, 'Zaakceptowana', '90010112345', '1234567890');
+
+INSERT INTO Oferty VALUES
+('O002', DATE '2023-02-10', 98000.00, 'W trakcie wykonania', '92050567890', '9876543210');
+
+INSERT INTO Oferty VALUES
+('O003', DATE '2023-03-01', 220000.00, 'Zaakceptowana', '93080811111', '1112223334');
+
+INSERT INTO Oferty VALUES
+('O004', DATE '2023-03-15', 175000.00, 'Realizowana', '89040422222', '5556667778');
+
+INSERT INTO Projekty VALUES
+('PR001', DATE '2023-02-01', NULL, 'Realizacja', 140000.00, 'O001', '88020233333');
+
+INSERT INTO Projekty VALUES
+('PR002', DATE '2023-03-10', NULL, 'Realizacja', 210000.00, 'O003', '87090944444');
+
+INSERT INTO Projekty VALUES
+('PR003', DATE '2023-04-01', DATE '2025-05-03', 'Zaakceptowany', 165000.00, 'O004', '88020233333');
+
+INSERT INTO Lokalizacje_projektu VALUES
+('Polanka', '10', '60-200', 0, 'PR001');
+
+INSERT INTO Lokalizacje_projektu VALUES
+('Słoneczna', '12', '80-100', 5, 'PR002');
+
+INSERT INTO Lokalizacje_projektu VALUES
+('Lipowa', '3', '40-300', 12, 'PR003');
+
+INSERT INTO Specyfikacje_projektu VALUES
+('LAN', 'Gwiazda', 1000000000, 'CAT6', 'Sieć biurowa', 'PR001');
+
+INSERT INTO Specyfikacje_projektu VALUES
+('WAN', 'Mesh', 500000000, 'Światłowód', 'Sieć rozległa', 'PR002');
+
+INSERT INTO Specyfikacje_projektu VALUES
+('WLAN', 'Gwiazda', 300000000, 'CAT6A', 'Sieć bezprzewodowa', 'PR003');
+
+INSERT INTO Urządzenia VALUES
+('SW-01', 'Switch', 'Cisco', 10);
+
+INSERT INTO Urządzenia VALUES
+('RTR-01', 'Router', 'Huawei', 3);
+
+INSERT INTO Urządzenia VALUES
+('AP-01', 'Access Point', 'Ubiquiti', 8);
+
+INSERT INTO Urządzenia VALUES
+('FW-01', 'Firewall', 'Fortinet', 2);
+
+INSERT INTO Porty_w_urządzeniu VALUES
+(1, 'FastEthernet', 'SW-01');
+
+INSERT INTO Porty_w_urządzeniu VALUES
+(2, 'GigabitEthernet', 'SW-01');
+
+INSERT INTO Porty_w_urządzeniu VALUES
+(1, 'Ethernet', 'AP-01');
+
+INSERT INTO Porty_w_urządzeniu VALUES
+(1, 'GigabitEthernet', 'FW-01');
+
+INSERT INTO Protokoły VALUES
+('TCP/IP', 'ISO 9.987');
+
+INSERT INTO Protokoły VALUES
+('HTTP', 'RFC-345');
+
+INSERT INTO Protokoły VALUES
+('HTTPS', 'RFC-2818');
+
+INSERT INTO Protokoły VALUES
+('SNMP', 'RFC-3411');
+
+INSERT INTO Protokoły_urządzenia VALUES
+('TCP/IP', 'SW-01');
+
+INSERT INTO Protokoły_urządzenia VALUES
+('HTTP', 'RTR-01');
+
+INSERT INTO Protokoły_urządzenia VALUES
+('HTTPS', 'FW-01');
+
+INSERT INTO Protokoły_urządzenia VALUES
+('SNMP', 'AP-01');
+
+INSERT INTO Urządzenia_w_projekcie VALUES
+('00001', 'SW-01', 'PR001');
+
+INSERT INTO Urządzenia_w_projekcie VALUES
+('00002', 'SW-01', 'PR001');
+
+INSERT INTO Urządzenia_w_projekcie VALUES
+('00003', 'RTR-01', 'PR001');
+
+INSERT INTO Urządzenia_w_projekcie VALUES
+('00004', 'AP-01', 'PR002');
+
+INSERT INTO Urządzenia_w_projekcie VALUES
+('00005', 'FW-01', 'PR003');
+
+INSERT INTO Usterki VALUES
+('Brak łączności na porcie 1', DATE '2023-03-05', '95030344444', '00001', 'PR001');
+
+INSERT INTO Usterki VALUES
+('Przerywane połączenie WiFi', DATE '2023-04-12', '97010166666', '00004', 'PR002');
+
+INSERT INTO Usterki VALUES
+('Błąd konfiguracji firewalla', DATE '2023-05-01', '94050577777', '00005', 'PR003');
+
+INSERT INTO Zadania_montażowe VALUES
+('Montaż', 600.00, 'PR001', '96070755555');
+
+INSERT INTO Zadania_montażowe VALUES
+('Konfiguracja', 800.00, 'PR001', '95030344444');
+
+INSERT INTO Zadania_montażowe VALUES
+('Testy', 450.00, 'PR002', '97010166666');
+
+INSERT INTO Zadania_montażowe VALUES
+('Kontrola', 500.00, 'PR003', '94050577777');
